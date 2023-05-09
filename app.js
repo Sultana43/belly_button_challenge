@@ -202,9 +202,9 @@ metaData.html(metaDataString)
 //-----------------------------------------------------------------------------------------------------------------//
 
 // Create variable for holding washing frequency for gauge chart
-let sampleMetadata = data.metaData;
-let metadataAarray = sampleMetadata.filter(entry => entry.id == id)[0]
-let washingFreq = metadataArray["wfreq"];
+//let sampleMetadata = data.metaData;
+//let metadataAarray = sampleMetadata.filter(entry => entry.id == id)[0]
+//let washingFreq = metadataArray["wfreq"];
 
 // Create trace for gauge chart
 

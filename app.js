@@ -114,7 +114,7 @@ metaData.html(metaDataString)
 
 // NOW TO USE THE ABOVE CODE FOR OPTION CHANGES FUNCTION (so subject ID can be changed and all corresponding charts will populate with new ID data):
 
-function optionChanged(id) {d3.json("../../samples.json").then(function(data) {
+function optionChanged(id) {d3.json("samples.json").then(function(data) {
     let sampleNames = data.samples
 
 

@@ -11,7 +11,7 @@
 
 
 // Use the list of sample "names" to populate the select option
-d3.json("../../samples.json").then(function(data) {
+d3.json("samples.json").then(function(data) {
     let sampleNames = data.samples
 
 
